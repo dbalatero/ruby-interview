@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../../lib/math'
+require_relative '../../lib/fake_math'
 
 describe FakeMath do
   describe '.add' do
     it 'adds numbers' do
-      expect(FakeMath.add(3, 4)).to eq(7)
+      expect(described_class.add(3, 4)).to eq(7)
     end
   end
 end
