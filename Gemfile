@@ -13,5 +13,6 @@ end
 
 group :test do
   gem 'rspec'
+  gem 'rspec-sorbet'
   gem 'rubocop-rspec'
 end
