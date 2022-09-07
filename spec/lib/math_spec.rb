@@ -1,5 +1,5 @@
-require "spec_helper"
-require_relative "../../lib/math"
+require 'spec_helper'
+require_relative '../../lib/math'
 
 describe FakeMath do
   describe '.add' do
