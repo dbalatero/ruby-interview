@@ -1,3 +1,3 @@
 # ruby-interview
 
-ruby + rspec + rubocop
+ruby + rspec + rubocop + sorbet
