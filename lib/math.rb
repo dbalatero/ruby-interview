@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module FakeMath
-  def self.add(a, b)
-    a + b
+  def self.add(first, second)
+    first + second
   end
 end
