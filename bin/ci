@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+echo "Typechecking with Sorbet..."
+echo "---------------"
+srb tc
+
+echo
+echo "Running RSpec suite..."
+echo "----------------------"
+rspec spec
+
+echo
+echo "Linting with Rubocop..."
+echo "-----------------------"
+rubocop

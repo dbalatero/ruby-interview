@@ -8,8 +8,7 @@ module FakeMath
     params(
       first: Numeric,
       second: Numeric
-    )
-      .returns(Numeric)
+    ).returns(Numeric)
   end
   def self.add(first, second)
     first + second
